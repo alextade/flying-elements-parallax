@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 100px 50px;
+    font-size: 18px;
+}
+
+.flying-item{
+    position: absolute;
+    transition: top 200ms linear;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+.flying-item:nth-of-type(1){
+    left: 20%;
+    top: 20%;
+    background-color: lightblue;
+    width: 90px;
+    height: 100px;
+}
+.flying-item:nth-of-type(2){
+    right: 15%;
+    top: 40%;
+    background-color: lightgreen;
+    width: 110px;
+    height: 80px;
+}
+.flying-item:nth-of-type(3){
+    left: 10%;
+    top: 70%;
+    background-color: lightcoral;
+    width: 70px;
+    height: 90px;
+}
